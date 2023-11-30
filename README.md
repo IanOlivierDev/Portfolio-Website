@@ -2,7 +2,7 @@
 
 ## Ian Olivier
 
-My Public Portfolio Website
+Public Portfolio Website
 
 ## Instructions
 
