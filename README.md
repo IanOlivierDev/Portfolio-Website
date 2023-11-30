@@ -4,6 +4,10 @@
 
 My Public Portfolio Website
 
+## Instructions
+
+Open index.html to view website.
+
 ## Features
 
 **📖 Personal Website Coming soon page**
