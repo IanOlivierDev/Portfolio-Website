@@ -43,7 +43,7 @@ body{
     
 }
 
-.links:hover{
+.links:hover, .links:focus{
     box-shadow: inset 100px 0 0 0 white;
     color: black;
     /* border-radius: 25%; */
