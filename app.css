@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Matrix';
+    src: url('Matrix/matrix-mz4p-webfont.woff2') format('woff2');
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url("prplejpeg.jpg");
+}
+#container{
+    height: 500px;
+    width: 30%;
+    border-radius: 10%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+#links{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    /* margin: 0.6em;*/
+    font-size: 1.2em;
+    transition: color 0.8s ease-in-out, box-shadow 0.8s ease-out;
+    border-radius: 0%;
+    padding: 5px;
+}
+
+
+.links:hover{
+    box-shadow: inset 100px 0 0 0 white;
+    color: black;
+    /* border-radius: 25%; */
+}
+p{
+    font-family: 'Matrix', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+h2{
+    font-family: 'Matrix', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5em;
+    margin: 10px;
+    color: white;
+}
+
+img{
+    width: 15em;
+    height: 60%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-radius: 12%;
+}
+
+@media (max-width: 1730px){
+    h2{
+        font-size: 4em;
+    }
+    .links{
+        padding-bottom: 20px;
+    }
+  }
+  @media (max-width: 1400px){
+    h2{
+        font-size: 3em;
+    }
+    .links{
+        padding-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 1060px) {
+    h2{
+        font-size: 2em;
+    }
+    .links{
+        margin-bottom: 50px;
+    }
+    img{
+        width: 10em;
+    }
+  }
